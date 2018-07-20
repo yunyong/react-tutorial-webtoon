@@ -1,28 +1,31 @@
-.App {
-  text-align: center;
-}
+@charset "utf-8";
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {font-size:100%;vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+table {border-collapse:collapse;border-spacing:0}
+body{-webkit-text-size-adjust:none} input[type='text'],input[type='password'],input[type='submit'],input[type='search'] {-webkit-appearance:none; border-radius:0}
+input:checked[type='checkbox'] {background-color:#666; -webkit-appearance:checkbox}
+button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button; border-radius:0}
+body {min-width:320px;background-color:#fff}
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;color:#333}
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+a {color:#333;text-decoration:none} a:active, a:hover {text-decoration:none}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 
-.App-title {
-  font-size: 1.5em;
-}
+.show {display:block}
+.hide {display:none}
 
-.App-intro {
-  font-size: large;
-}
+.header {padding:10px 0;font-size:20px;background-color:#3d414c;text-align:center;color:#fff}
+.footer {padding:10px 0;border-top:1px solid #d9d9d9;font-size:11px;font-size:12px;background-color:#f1f1f1;text-align:center;color:#888}
+.gnb {overflow:hidden;background-color:#be3f2f}
+.gnb li {float:left;width:33.3%}
+.gnb li:nth-child(2) {width:33.4%}
+.gnb .tab_day {display:block;padding:6px 0;text-align:center;color:#fff}
+.gnb .tab_day.on {background-color:#8e2f23}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
