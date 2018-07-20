@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import './App.css';
 
-import Main from "./contailner/Main";
-import WebtoonHome from "./contailner/WebtoonHome";
-import Viewer from "./contailner/Viewer";
+import Main from "./container/Main";
+import WebtoonHome from "./container/WebtoonHome";
+import Viewer from "./container/Viewer";
 
 
 class App extends Component {
