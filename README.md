@@ -9,4 +9,4 @@ http://localhost:3000
 
 ```
 
-React 강좌 tutorial 5 - 뷰어 (웹툰서비스 만들기)
+React 강좌 tutorial 6 - GNB 처리 (웹툰서비스 만들기)
