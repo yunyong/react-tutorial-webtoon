@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from "../component/Header";
 import Gnb from "../component/Gnb";
 import Footer from "../component/Footer";
-import axios from "axios/index";
+import axios from "axios";
 import WebtoonInfo from "../component/WebtoonInfo";
 import EpisodeList from "../component/EpisodeList";
 

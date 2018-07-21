@@ -44,3 +44,8 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .wrap_webtoon .info_webtoon .tit_webtoon {display:block;font-size:16px;padding:8px 0}
 .wrap_webtoon .info_webtoon .num_score {display:block;padding-top:10px;color:#666}
 .wrap_webtoon .info_webtoon .txt_genre {display:inline-block;margin-right:4px;padding:2px 4px;font-size:12px;background-color:#eee}
+
+.wrap_viewer {padding-top:40px}
+.wrap_viewer .top_viewer {position:fixed;top:0;left:0;width:100%;height:40px;line-height:38px;background-color:#ccc;text-align:center}
+.wrap_viewer .top_viewer .btn_close {position:absolute;top:0;right:0;width:40px;height:40px}
+.wrap_viewer .wrap_images img {display:block;min-width:320px;width:100%}
