@@ -29,3 +29,9 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .gnb .tab_day {display:block;padding:6px 0;text-align:center;color:#fff}
 .gnb .tab_day.on {background-color:#8e2f23}
 
+.list_webtoon li {border-top:1px solid #ccc}
+.list_webtoon .link_webtoon {display:block;overflow:hidden}
+.list_webtoon .img_webtoon {float:left;width:148px;height:106px;margin-right:10px}
+.list_webtoon .info_webtoon {overflow:hidden}
+.list_webtoon .info_webtoon .tit_webtoon {display:block;font-size:16px;padding:8px 0}
+
