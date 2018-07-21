@@ -22,7 +22,7 @@ class Main extends Component{
 
     _getList(){
         //webtoon_list를 가지고 옵니다.
-        const apiUrl = 'dummy/webtoon_list.json';
+        const apiUrl = '/dummy/webtoon_list.json';
 
         axios.get(apiUrl)
             .then(data => {

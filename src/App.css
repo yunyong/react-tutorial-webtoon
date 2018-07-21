@@ -35,3 +35,12 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .list_webtoon .info_webtoon {overflow:hidden}
 .list_webtoon .info_webtoon .tit_webtoon {display:block;font-size:16px;padding:8px 0}
 
+.list_episode .link_webtoon {padding:10px}
+.list_episode .img_webtoon {width:117px;height:70px;margin-right:20px;border:1px solid #ccc}
+
+.wrap_webtoon {overflow:hidden;padding:10px}
+.wrap_webtoon .img_webtoon {float:left;width:148px;height:106px;margin-right:10px}
+.wrap_webtoon .info_webtoon {overflow:hidden}
+.wrap_webtoon .info_webtoon .tit_webtoon {display:block;font-size:16px;padding:8px 0}
+.wrap_webtoon .info_webtoon .num_score {display:block;padding-top:10px;color:#666}
+.wrap_webtoon .info_webtoon .txt_genre {display:inline-block;margin-right:4px;padding:2px 4px;font-size:12px;background-color:#eee}
